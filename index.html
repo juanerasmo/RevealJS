@@ -1,0 +1,122 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Curso JS</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-color="#0074D9">
+					<h2>Que es HTML</h2>
+					<p>Es un lenguaje de programación que se utiliza para el desarrollo de páginas de Internet.</p>
+					<img src=".\html.png" alt="HTML" border="0" width="260" height="304"  >
+				</section>
+				<section data-transition="zoom">
+					<h2>Que es HTML5</h2>
+					<P>Es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 especifica dos variantes de sintaxis para HTML: una «clásica», HTML (text/html), conocida como HTML5, y una variante XHTML conocida como sintaxis XHTML5 que deberá servirse con sintaxis XML (application/xhtml+xml).</P>
+					<img src=".\html5.png" alt="HTML5" border="0" width="260" height="260"  >
+				</section>
+				<section data-background-color="#000000">
+					<h2>Que es JavaScript</h2>
+					<p>Es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico.</p>
+					<img src=".\js.png" alt="HTML5" border="0" width="260" height="260"  >
+				</section>
+				<section>
+					<section style="background: linear-gradient(110deg, #0074D9 60%, #0074A1 60%);">
+						<h2>Un poco de historia</h2>
+						<p>JavaScript fue: <br>
+						<span>
+							<ul>
+							  <li class="fragment grow">Desarrollado por: Brendan Eich</li>
+							  <li class="fragment shrink">Empresa: Netscape</li>
+							  <li class="fragment highlight-blue">Fecha: 1995 (aunque en el 1997 se establecio formamente)</li>
+							</ul>
+						</span></p>
+						<img src=".\creador.jpg" alt="HTML5" border="0" width="400" height="300">
+					</section>
+					<section>
+						<h2>Librerias mas Populares</h2>
+						<img src=".\libreria.png" alt="HTML5" border="0" width="400" height="300">
+					</section>
+				</section>
+				<section>
+                    <section data-background="#dddddd">
+                        <H2>Que es CSS?</H2>
+                        <p>Es un lenguaje que define la apariencia de un documento escrito en un lenguaje de marcado (por ejemplo, HTML).</p>
+                        <img src=".\css.png" alt="CSS" border="0" width="400" height="300">
+                    </section>
+                    <section>
+                        <h3>Versiones de CSS</h3>
+                        <p>Las versiones de CSS a lo largo de la historia han sido*:<br>
+                            <span >
+                                <ul>
+                                  <li style="font-size: 15px">CSS 1: publicada en 1996.</li>
+                                  <li style="font-size: 15px">CSS 2: publicada en 1998.</li>
+                                  <li style="font-size: 15px">CSS 2.1: publicada en 2004.</li>
+                                    <li style="font-size: 15px">CSS 3: publicada en 2011.</li>
+                                    <li style="font-size: 15px">CSS 4: se estima que pueda ser especificación oficial en 2019.</li>
+                                </ul>
+						    </span></p>
+                        <img src=".\css.png" alt="CSS" border="0" width="400" height="300" style="overflow: hidden; top: 0; margin:0 auto;">
+                    </section>
+				</section>
+				<section>
+                    <h2>3 pasatiempos favoritos del autor</h2>
+                    <p>
+                        <span>
+                                <ul>
+                                  <li>Jugar Videojuegos</li>
+                                  <li>Ver anime</li>
+                                  <li>Aprender</li>
+                                </ul>
+						    </span>
+                    </p>
+                </section>
+                <section>
+                    <h2>Un video agradable de YouTube</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/g2cJFYei5_o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				],
+                controlsLayout: 'edges',
+                autoPlayMedia: true,
+                transition: 'convex',
+                backgroundTransition: 'zoom',
+
+			});
+		</script>
+	</body>
+</html>
